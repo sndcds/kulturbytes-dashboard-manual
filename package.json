@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "blume dev",
     "build": "blume build",
-    "doctor": "blume doctor"
+    "doctor": "blume doctor",
+    "validate": "blume validate --strict",
+    "translations:check": "blume translate --check"
   },
   "dependencies": {
-    "blume": "^2.1.1"
+    "blume": "^2.2.1"
   }
 }

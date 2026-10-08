@@ -1,0 +1,65 @@
+{
+  "files": {
+    "docs/dashboard.mdx": {
+      "da": "41959b7c03e05626",
+      "de": "41959b7c03e05626"
+    },
+    "docs/event-edit.mdx": {
+      "da": "036200d498660185",
+      "de": "036200d498660185"
+    },
+    "docs/events.mdx": {
+      "da": "38a3becae06ac2e7",
+      "de": "38a3becae06ac2e7"
+    },
+    "docs/image-best-practice.mdx": {
+      "da": "519c00906b5581f4",
+      "de": "519c00906b5581f4"
+    },
+    "docs/images.mdx": {
+      "da": "23fc2d4b2c96182d",
+      "de": "23fc2d4b2c96182d"
+    },
+    "docs/index.mdx": {
+      "da": "f070b717fa2ca50b",
+      "de": "f070b717fa2ca50b"
+    },
+    "docs/logos.mdx": {
+      "da": "2e4075c5fd0f01f4",
+      "de": "2e4075c5fd0f01f4"
+    },
+    "docs/maps.mdx": {
+      "da": "88f25712df7fd8fc",
+      "de": "88f25712df7fd8fc"
+    },
+    "docs/organization-edit.mdx": {
+      "da": "6b489053becc8523",
+      "de": "6b489053becc8523"
+    },
+    "docs/organization.mdx": {
+      "da": "96fbe54423fd1c64",
+      "de": "96fbe54423fd1c64"
+    },
+    "docs/overview.mdx": {
+      "da": "8ee2381363bc7281",
+      "de": "8ee2381363bc7281"
+    },
+    "docs/register.mdx": {
+      "da": "ab5029c99183984e",
+      "de": "ab5029c99183984e"
+    },
+    "docs/space-edit.mdx": {
+      "da": "80c59e70ebf2ac2d",
+      "de": "80c59e70ebf2ac2d"
+    },
+    "docs/venue-and-space.mdx": {
+      "da": "6fd6ab41363e7f5b",
+      "de": "6fd6ab41363e7f5b"
+    },
+    "docs/venue-edit.mdx": {
+      "da": "62eafe9735c18ed3",
+      "de": "62eafe9735c18ed3"
+    }
+  },
+  "version": 1
+}

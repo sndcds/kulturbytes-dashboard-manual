@@ -4,8 +4,35 @@ export default defineConfig({
   title: "kulturbytes Manual",
   description: "Manual for the kulturbytes Dashboard",
 
+  // Keep existing English links working after adding the /en URL prefix.
+  redirects: [
+    { from: "/", to: "/en", status: 308 },
+    ...[
+      "overview",
+      "register",
+      "dashboard",
+      "organization",
+      "organization-edit",
+      "venue-and-space",
+      "venue-edit",
+      "space-edit",
+      "events",
+      "event-edit",
+      "images",
+      "image-best-practice",
+      "logos",
+      "maps",
+    ].map((slug) => ({
+      from: `/${slug}`,
+      to: `/en/${slug}`,
+      status: 308 as const,
+    })),
+  ],
+
   i18n: {
     defaultLocale: "en",
+    parser: "dir",
+    hideDefaultLocalePrefix: false,
 
     locales: [
       {
@@ -40,6 +67,8 @@ export default defineConfig({
           "kulturbytes" og "Uranus Dashboard" er produktnavne
           og må ikke oversættes.
           Brug de samme danske fagtermer konsekvent gennem hele manualen.
+          Brug "organisation", "sted", "lokale", "arrangement",
+          "arrangementstidspunkt", "team", "partner" og "portal".
         `,
       },
     ],
